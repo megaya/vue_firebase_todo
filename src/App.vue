@@ -23,6 +23,7 @@ import firebase from 'firebase'
 export default {
   name: 'App',
   created: function() {
+    console.log(FIRE_BASE);
     this.database = firebase.database();
     this.todosRef = this.database.ref('todos');
 

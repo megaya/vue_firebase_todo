@@ -19,3 +19,21 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+## Add Firebase settings
+
+Add config/local.env.(Load config/dev.env.js)
+
+```config/local.env
+'use strict'
+module.exports = {
+  FIRE_BASE: {
+    API_KEY: '"......"',
+    AUTH_DOMAIN: '"......"',
+    DATABASE_URL: '"......"',
+    PROJECT_ID: '"......"',
+    STORAGE_BUCKET: '"......"',
+    MESSAGING_SENDERID: '"......"',
+  }
+}
+```
